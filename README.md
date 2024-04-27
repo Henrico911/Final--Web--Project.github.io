@@ -6,7 +6,7 @@ THIS REPOSITORY HOLDS MY FINAL WEBSITE DEVELOPMENT PROJECT WRITTEN IN HTML, CSS 
                 : www.skurge-tech.com
 
 #-----DESCRIPTION-----#
-                : The Project www.skurge-tech.com is a website i created as my final website development project in my First Year 2nd Semester
+                : The Project https://henrico911.github.io/Final--Web--Project.github.io/ is a website i created as my final website development project in my First Year 2nd Semester
                   It is a one stop shopping center for delicate computer hardware forexample:
                                     > RAM Chips
                                     > Software Maintenace Kits
