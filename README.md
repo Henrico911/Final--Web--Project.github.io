@@ -15,4 +15,9 @@ DESCRIPTION : The Project www.skurge-tech.com is a website i created as my final
                                     >AMD
 
 
-AUTHORS: 
+AUTHORS: Karamagi Henry Atuhaire aka skurge
+
+INSPIRATION: 1. micron.com
+             2. intel.com
+             3. apple.com
+             4. 
