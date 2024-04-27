@@ -1,0 +1,253 @@
+/* THE HERO SECTION */
+#hero {
+  background-image: url(../img/smart-home.jpeg);
+  object-fit: contain;
+  display: flex;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+
+.hero-banner span {
+  font-size: 29px;
+  padding-top: 30px;
+}
+
+.hero-banner h1 {
+  color: #ff7200;
+  font-size: 50px;
+}
+
+.hero-banner h1 span {
+  color: #fff;
+  font-size: 50px;
+}
+
+.hero-banner p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hero-banner p span {
+  font-size: 20px;
+  color: #ff7200;
+}
+
+
+
+
+
+/* THE SEARCH BAR */
+.search-container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  height: 140px;
+  align-items: center;
+  margin: auto;
+  /* border: 0.05px solid #ff7200; */
+  border-radius: 50px;
+  border-top: 3px solid #012733;
+  /* background: hsl(204, 70%, 53%); */
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.search-container:hover {
+/* box-shadow: 0 3px 10px rgb(0 0 0 / 0.5); */
+box-shadow: 0 3px 10px  rgb(1 42 55 / 0.5);
+transition: 0.4s ease;
+}
+
+.search-box {
+  /* border: 1px solid hsl(194, 94%, 12%); */
+  border-radius: 30px;
+  padding: 10px;
+  width: 45%;
+  box-sizing: border-box;
+  margin: 5px;
+  background: #fff;
+}
+
+select, input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 5px;
+  margin-bottom: 10px; 
+  border-radius: 5px;
+}
+
+button {
+ background-color:hsl(194, 94%, 12%); 
+ color:white; 
+ padding-left :20px; 
+ padding-right :20px; 
+ border:none;
+ border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff7200;
+}
+
+
+
+
+
+
+/* THE OUR PRODUCTS SECTION */
+.fe-products-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.fe-product-card {
+  width: 400px;
+  /* border: 1px solid hsl(194, 94%, 12%); */
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s ease;
+  box-shadow: 0 3px 10px rgb(1 42 55 / 0.9);
+}
+
+.fe-product-card:hover {
+  transform: translateY(-10px);
+}
+
+
+.fe-product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.fe-product-card h2 {
+  font-size: 20px;
+  margin: 20px 0;
+  /* background-color: ; */
+  color: #ff7200;
+}
+
+.fe-product-card h2:hover {
+  text-decoration: underline #012733;
+}
+
+.fe-view-products {
+  background-color: #012733;
+  color: #ff7200;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* THE fEATURED PRODUCTS SECTION */
+.section-heading {
+  align-items: center;
+}
+
+.products-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-card {
+  width: 350px;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s ease;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h2 {
+  font-size: 20px;
+  margin: 20px 0;
+  color: #ff7200;
+}
+
+.view-products {
+  background-color: #012733;
+  color: #ff7200;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 19px;
+}
+
+
+
+
+/* the product ad section */
+.product-ad {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 20px;
+  gap: 20px;
+}
+
+.product-ad img {
+  border-radius: 1.6rem;
+}
+
+.product-info {
+  padding-top: 20px;
+  align-items: center;
+}
+
+
+
+.para {
+  border-radius: 10px;
+  border-top: 3px solid #ff7200;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.para p {
+  font-size: 15px;
+  padding: 4px;
+}

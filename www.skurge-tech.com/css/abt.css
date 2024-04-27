@@ -1,0 +1,318 @@
+/* About Section */
+ 
+.about {
+    background: rgb(224, 251, 222);
+    background: linear-gradient(360deg, rgba(255, 245, 247, 0.425) 0%, rgba(252, 213, 163, 0.603) 100%);
+    padding: 100px 0 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ff7200;
+}
+ 
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #022d3b;
+}
+ 
+.about p {
+    font-size: 1rem;
+    color: #022d3b;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+.about-info {
+    margin: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+ 
+.about-img {
+    width: 500px;
+    height: 20rem;
+    border-radius: 10px;
+ 
+}
+ 
+.about-img img {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 10px; */
+    object-fit: contain;
+}
+
+.about-img img:hover {
+    transform: translateX(5px);
+    transition: 0.5s ease;
+}
+ 
+.about-info p {
+    font-size: 1.3rem;
+    margin: 0 2rem;
+    text-align: justify;
+}
+ 
+.button-abt {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    margin: 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #ff7200;
+    text-align: center;
+    cursor: pointer;
+    width: 15rem;
+    border-radius: 4px;
+}
+
+.button-abt a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-abt a:hover {
+    color: black;
+}
+ 
+.button-abt:hover {
+    background-color: #022d3b;
+    color: #ff7200;
+    transition: 0.5s ease;
+}
+ 
+
+
+/* VISION-MISSION-OBJECTIVES */
+
+/* THE MAIN CONTAINER */
+.v-m-o {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/back.jpeg);
+}
+
+
+
+/* MISSION */
+.mission {
+    align-items: center;
+    background-color: #fff;
+    display: block;
+    height: 400px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    border-bottom: 3px solid #ff7200;
+    border-top: 3px solid #ff7200;
+    transition: 0.5s ease;
+}
+
+.mission:hover {
+    transform: translateY(-20px);
+}
+
+.miss-head {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline #ff7200;
+}
+
+.miss-para {
+    padding: 20px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.vis-para {
+    padding: 20px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.obj-para {
+    padding: 20px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.obj-para p span {
+    font-weight: bolder;
+    color: #ff7200;
+}
+
+
+
+/* VISION */
+.vision {
+    background-color: #fff;
+    display: block;
+    height: 500px;
+    width: 570px;
+    margin: 10px;
+    border-radius: 10px;
+    border-bottom: 3px solid #ff7200;
+    border-top: 3px solid #ff7200;
+    transition: 0.5s ease;
+}
+
+.vision:hover {
+    transform: translateY(10px);
+}
+
+.vis-head {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline #ff7200;
+}
+
+hr {
+    align-content: center;
+    width: 100%;
+    height: 2px;
+    color: #ff7200;
+}
+
+.p1 {
+    padding-bottom: 30px;
+}
+.p2 {
+    padding-top: 30px;
+}
+
+.color {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    align-items: center;
+    /* background-color: #ff7200; */
+    border: 1px solid #ff7200;
+}
+
+.orange {
+    /* border: 1px solid #022d3b; */
+    width: 50%;
+    height: 20px;
+    background-color: #ff7200;
+}
+
+.dark-teal {
+    /* border: 1px solid #ff7200; */
+    width: 50%;
+    height: 20px;
+    background-color: #022d3b;
+}
+
+
+
+
+
+
+
+/* OBJECTIVES */
+.objectives {
+    background-color: #fff;
+    display:block;
+    height: 400px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    border-bottom: 3px solid #ff7200;
+    border-top: 3px solid #ff7200;
+    transition: 0.5s ease;
+}
+
+.objectives:hover {
+    transform: translateY(-20px);
+}
+
+.obj-head {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline #ff7200;
+}
+
+
+
+
+
+
+
+
+
+/* Team Section */
+ 
+.team {
+    padding: 30px 0;
+    text-align: center;
+}
+ 
+.team h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+ 
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+ 
+.card {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 18rem;
+    height: 25rem;
+    margin-top: 10px;
+}
+ 
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+ 
+.card-img {
+    width: 18rem;
+    height: 12rem;
+}
+ 
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+ 
+.card-info .button-abt {
+    margin: 2rem 1rem;
+}
+ 
+.card-name {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+ 
+.card-role {
+    font-size: 1rem;
+    color: #888;
+    margin: 5px 0;
+}
+ 
+.card-email {
+    font-size: 1rem;
+    color: #555;
+}
+ 

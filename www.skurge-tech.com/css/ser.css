@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/* the product ad section */
+.product-ad {
+    /* border: 1px solid #ff7200; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: #f2f2f2;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .product-ad img {
+    border-radius: 1.6rem;
+  }
+  
+  .product-info {
+    padding-top: 20px;
+    align-items: center;
+  }
+  
+  .product-info h2 {
+    color: #ff7200;
+  }
+  
+  .para {
+    border-radius: 10px;
+    border-top: 3px solid #012733;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    /* border: 1px solid #012733; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .para p {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .view-products {
+    background-color: #012733;
+    color: #ff7200;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 19px;
+  }
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    background-image: url(../img/back.jpeg);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.section-heading {
+    color: #ff7200;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.services-card {
+    background-color: #f2f2f2;
+    width: 350px;
+    /* border: 1px solid hsl(194, 94%, 12%); */
+    border-radius: 10px;
+    border-top: 5px solid #ff7200;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.services-card:hover {
+    transform: translateY(-30px);
+}
+
+.services-card i {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #ff7200;
+}
+
+.services-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services-card p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+}

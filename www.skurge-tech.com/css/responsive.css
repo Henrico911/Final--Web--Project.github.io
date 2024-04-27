@@ -1,0 +1,855 @@
+/* ---------------------------------THE HEADER-------------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-cont.cont2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 25px;
+  }
+
+  .cont1 p {
+    padding-top: 20px;
+  }
+
+  .cont2 p {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  header {
+    gap: 10px;
+  }
+
+  .cont1 {
+    margin-left: 15px;
+  }
+
+  .cont2 {
+    margin-right: 50px;
+  }
+
+  .cont1 p {
+    padding-top: 30px;
+  }
+
+  .cont2 p {
+    padding-top: 30px;
+  }
+}
+
+
+
+
+
+/* ---------------------------------THE NAVIGATION BAR-------------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+  .nav-bar {
+    text-align: left;
+  }
+
+  .nav-bar ul {
+    display: block;
+  }
+
+  .nav-bar ul li {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-bar ul li a {
+    font-size: 16px;
+    padding: 8px 0;
+    display: block;
+  }
+
+  .sub-menu {
+    position: static;
+    margin-top: 0;
+    margin-left: 0;
+    border: none;
+    border-radius: 0;
+  }
+
+  .sub-menu ul {
+    display: none;
+  }
+
+  .sub-menu ul li {
+    width: auto;
+    padding: 8px;
+    text-align: center;
+    border: none;
+  }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .nav-bar ul li {
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+  }
+
+  .nav-bar ul li a {
+    font-size: 16px;
+  }
+
+  .sub-menu {
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+
+  .sub-menu ul li {
+    width: 130px;
+    padding: 8px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------THE HOME PAGE-------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+  .vision {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .view-products {
+    margin: auto;
+    margin-right: 100px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .vision {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .view-products {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+
+@media screen  and (max-width: 768px) {
+  .services-cards {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .read-more {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .read-more {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+/*------------- features section-------------------- */
+@media only screen and (max-width: 768px) {
+  .feature {
+    display: block;
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .feature {
+    width: 45%;
+  }
+}
+
+
+
+
+
+/* ---------------------------------------THE ABOUT US PAGE--------------------------------------------------- */
+/*------------------------------ the about section----------------------- */
+@media only screen and (max-width: 768px) {
+    .about {
+      padding: 50px 0 20px 0;
+    }
+  
+    .about h1 {
+      font-size: 2rem;
+    }
+  
+    .about p {
+      font-size: 0.9rem;
+    }
+  
+    .about-info {
+      flex-direction: column;
+      margin: 0;
+    }
+  
+    .about-img {
+      width: 80%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .button-abt {
+      margin: 10px;
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .about h1 {
+      font-size: 2.3rem;
+    }
+  
+    .about-info p {
+      font-size: 1.1rem;
+    }
+  }
+
+
+  /* --------------------------v-m-o-------------------- */
+@media only screen and (max-width: 768px) {
+    .v-m-o {
+      flex-direction: column;
+    }
+  
+    .mission,
+    .vision,
+    .objectives {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .mission,
+    .vision,
+    .objectives:hover {
+      transform: none;
+    }
+  
+    .miss-head,
+    .vis-head,
+    .obj-head {
+      margin-top: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 768px){
+    .p2 {
+        display: none;
+    }
+  }
+  
+
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .mission,
+    .vision,
+    .objectives {
+      width: 45%;
+      margin: 10px;
+    }
+  }
+  
+
+
+
+/* ---------------------------------------THE CONTACT US PAGE--------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+    #hero {
+      height: auto;
+      padding: 50px 20px;
+    }
+  
+    .hero-banner h1 {
+      font-size: 30px;
+    }
+  
+    .hero-banner p {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .hero-banner h1 {
+      font-size: 40px;
+    }
+  
+    .hero-banner p {
+      font-size: 18px;
+    }
+  }
+  
+
+/* ------------------CONTACT SECTION-------------------------------- */
+@media only screen and (max-width: 768px) {
+    .contact-info,
+    .contact-form {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .contact-info-icon {
+        color: #ff7200;
+        background-color: #000;
+    }
+
+    .contact-info-content {
+        display: none;
+    }
+    
+    .contact-form {
+      padding: 20px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .contact-info,
+    .contact-form {
+      width: 48%;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1201px) {
+    .contact-info {
+      width: 45%;
+    }
+    
+    .contact-form {
+      width: 50%;
+    }
+  }
+  
+
+
+
+
+
+
+/* ----------------------------------------THE SERVICES PAGE--------------------------------------------------- */
+/* ------------------------ the services section--------------------------------- */
+@media only screen and (max-width: 768px) {
+    .services-cards {
+      justify-content: center;
+    }
+  
+    .services-card {
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .services-card {
+      width: 48%;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1201px) {
+    .services-card {
+      width: 30%;
+    }
+  }
+  
+
+
+
+
+/* ----------------------------------------------THE PRODUCTS PAGE------------------------------------------------ */
+@media only screen and (max-width: 600px) {
+    .search-container {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .search-box {
+      width: 100%;
+    }
+  
+    select, input[type="text"] {
+      width: 100%;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .search-box {
+      width: 48%;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 901px) {
+    .search-box {
+      width: 45%;
+    }
+  }
+
+/* --------------fe-products section---------------------- */
+
+@media only screen and (max-width: 768px) {
+    .fe-products-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .fe-product-card {
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .fe-product-card {
+      width: 48%;
+    }
+  }
+  
+  @media only screen and (min-width: 1201px) {
+    .fe-product-card {
+      width: 30%;
+    }
+  }
+  
+
+
+  
+/* ---------------product ad----------------------------- */
+
+@media only screen and (max-width: 768px) {
+    .product-ad {
+      flex-direction: column;
+    }
+    
+    .product-info {
+      padding-top: 0; 
+    }
+  
+    .product-ad img {
+      width: 100%; 
+      border-radius: 0; 
+      margin-bottom: 10px; 
+    }
+  }
+  
+  
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .product-info {
+      font-size: 14px; 
+    }
+  }
+  
+  
+
+/* ------------------products section-------------------------- */
+
+@media only screen and (max-width: 768px) {
+    .products-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-card {
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .product-card {
+      width: 48%;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1201px) {
+    .product-card {
+      width: 30%;
+    }
+  }
+  
+
+
+
+/*--------------------------------------------- THE PORTFOLIO PAGE ----------------------------------------------*/
+/* ---------------------projects section------------------------------- */
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 1000px;
+    }
+
+    #projects {
+        width: 1000px;
+    }
+
+    .project-info {
+        display: none;
+    }
+
+
+    .project-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .project-info {
+        display: none;
+    }
+
+    #projects {
+        width: 1024px;
+    }
+
+    .project-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        width: 100% !important;
+    }
+
+    .project-container{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-info {
+        display: none;
+    }
+
+    .project-card{
+        grid-column: 1/3;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        width: 100% !important;
+    }
+
+    .project-info {
+        display: none;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100% !important;
+    }
+
+    .project-info {
+        display: none;
+    }
+
+    .project-container{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card{
+        grid-column: 1/3;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cont1, .cont2 {
+        display: none;
+    }
+
+    .project-container{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card{
+        grid-column: 1/3;
+    }
+
+    .project-info {
+        display: none;
+    }
+}
+
+
+
+
+/*-------------------------------- client testimonies ---------------------------------- */
+@media screen  and (max-width: 1200px) {
+    body {
+        width: 100% !important;
+    }
+    .innerdiv {
+        grid-template-columns: repeat(1, 1fr);
+        display: block;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eachdiv {
+        padding: 1.5rem;
+        /* grid-column: 1/3; */
+    }
+}
+
+@media screen  and (max-width: 1050px) {
+    body {
+        width: 100% !important;
+    }
+    .innerdiv {
+        display: block;
+        justify-content: space-between;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eachdiv {
+        padding: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 100% !important;
+    }
+    .innerdiv {
+        display: block;
+        justify-content: space-between;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eachdiv {
+        padding: 1.5rem;
+        /* grid-column: 1/3; */
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        width: 100% !important;
+    }
+
+    .innerdiv {
+        display: block;
+        justify-content: space-between;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eachdiv {
+        padding: 1.5rem;
+        /* grid-column: 1/3; */
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        width: 100% !important;
+    }
+
+    .innerdiv {
+        display: block;
+        justify-content: space-between;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eachdiv {
+        padding: 1.5rem;
+        /* grid-column: 1/3; */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100% !important;
+    }
+
+    .innerdiv {
+        display: block;
+        justify-content: space-between;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eachdiv {
+        padding: 1.5rem;
+        /* grid-column: 1/3; */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .innerdiv {
+        display: block;
+        justify-content: space-between;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eachdiv {
+        padding: 1.5rem;
+        /* grid-column: 1/3; */
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------THE SHOP PAGE--------------------------------------------------------- */
+/* For screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+  .product {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .product-details {
+    margin-left: 0;
+  }
+}
+
+/* For screens between 769px and 1200px */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .product {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-image {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .product-details {
+    margin-left: 0;
+  }
+}
+
+/* For screens larger than 1200px */
+@media only screen and (min-width: 1201px) {
+  /* Keep the original styling */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------FOOTER------------------------------------------- */
+/*----------------- footer--------------------------- */
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

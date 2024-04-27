@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
+/* project-section */
+.project-section.active {
+	background-color: grey;
+	position: relative;
+    opacity: 1;
+    /* z-index: 8; */
+}
+
+.project-section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 150px 100px 100px;
+    position: fixed;
+    top: 0;
+    transition: 1s;
+    opacity: 0;
+}
+
+.project-heading{
+    font-size: 50px;
+    background: #252525;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ff7200;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 8px transparent;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+}
+
+.project-card{
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    height: 400px;
+    position: relative;
+}
+
+.project-img{
+	border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.project-content{
+    position: relative;
+    padding: 40px;
+    color: #fff;
+    transition: .5s;
+    opacity: 0;
+}
+
+.project-title{
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 300;
+	color: #ff7200;
+}
+
+.project-info{
+    margin: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.project-btn-grp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.project-btn{
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+	border-radius: 9px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.project-btn.live{
+    background: none;
+    border: 2px solid #fff;
+}
+
+.project-btn.live:hover{
+    background: #012733;
+	color: #ff7200;
+    border: 2px solid #ff7200;
+}
+
+.project-btn.github{
+    background: #000;
+    border: 2px solid #fff;
+}
+
+.project-btn.github a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.project-btn.github:hover{
+    background: #012733;
+	color: #ff7200;
+    border: 2px solid #ff7200;
+}
+
+.project-card:hover .project-img{
+    filter: blur(20px);
+}
+
+.project-card:hover .project-content{
+    opacity: 1;
+}
+
+
+
+center {
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+
+
+a:link,a:active,a:visited,a:hover {
+	color:#3f51b5;
+}
+
+.outerdiv {
+	background-color: #18202D;
+	width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.innerdiv {
+	transform: scale(0.9);
+	margin: 1rem;
+	display: grid;
+	grid-gap: 1.5rem;
+	grid-template-rows: repeat(2,22rem);
+	grid-template-columns: repeat(4,17rem);
+}
+
+.eachdiv {
+	padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 5px 5px 20px #6d6b6b6b;
+    color: white;
+}
+
+.eachdiv:hover {
+    transform: translateY(-10px);
+    transition: 0.5s ease;
+}
+
+.div1 {
+    border-top: 4px solid #ff7200;
+	background: #733FC8;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-image: url(https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 25rem;
+}
+.div2
+{
+    border-top: 4px solid #ff7200;
+	background:#49556B;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.div3
+{
+    border-top: 4px solid #012733;
+	background: white;
+    grid-column: 4/5;
+    grid-row: 1/3;
+    color: black;
+}
+.div4
+{
+    border-top: 4px solid #012733;
+	background: white;
+	grid-column: 1/2;
+    grid-row: 2/3;
+    color: black;
+}
+.div5
+{
+    border-top: 4px solid #ff7200;
+	background: #18202D;
+	grid-column: 2/4;
+    grid-row: 2/3;
+}
+.userdetails
+{
+	display: flex;
+}
+.imgbox
+{
+	margin-right: 1rem;
+}
+.imgbox img
+{
+	border-radius: 50%;
+	width: 2rem;
+	border: 2px solid #cec5c5;
+}
+.detbox
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.detbox p
+{
+	margin: 0;
+}
+.detbox .name
+{
+	color: hsl(0, 0%, 81%);
+    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
+    font-weight: 600;
+}
+.detbox .name.dark
+{
+	color: #49505A;
+}
+.detbox .designation
+{
+	color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-size: 0.8rem;
+}
+.detbox .designation.dark
+{
+	color: #49505A;
+}
+.review h4
+{
+	font-size: 1.4rem;
+	color: #ff7200;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+}
+.review.dark h4{
+	color:#ff7200;
+}
+.review p
+{
+	font-size: 0.95rem;
+    color: #F3DEFF;
+    font-weight: 500;
+    opacity: 50%;
+    line-height: 1.5;
+}
+.review.dark p{
+	color: #012733;
+}
+.attribution
+{
+	font-size: 1rem;
+    line-height: 1.5;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    text-align: right;
+}
+.attribution a
+{
+	text-decoration: none;
+}
+
+
+
+
+
+/* @media only screen and (max-width: 1000px)
+{
+	.innerdiv
+	{
+		transform: scale(0.7);
+	}
+}
+@media only screen and (max-width: 800px)
+{
+	.innerdiv
+	{
+		transform: scale(0.6);
+	}
+}
+@media only screen and (max-width: 600px)
+{
+	.div1 {
+		background-position-x: 10rem;
+	}
+	.innerdiv
+	{
+		display: flex; 
+		flex-direction: column;
+		transform: scale(1);
+		margin: 2rem;
+		margin-bottom: 5rem;
+	}
+	.attribution
+	{
+		position: relative;
+	}
+}
+
+@media screen  and (max-width: 768px) {
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
